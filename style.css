@@ -1,0 +1,31 @@
+body,
+html {
+    font-family: 'Blinker', sans-serif;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-size: 16px;
+    background-color: #111D4A;
+
+}
+
+img {
+    width: 30%;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color: #05CBE9
+}
+
+p {
+    color: whitesmoke
+}
+
+.read-more {
+    font-size: 1.5em;
+}
