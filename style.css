@@ -1,28 +1,31 @@
 body,
 html {
     font-family: 'Blinker', sans-serif;
-    margin: 0 auto;
-    padding: 0 auto;
-    font-size: 16px;
-    background-color: #111D4A;
+}
 
+.card {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 img {
-    width: 30%;
-    
+    width: 50%;
 }
 
-
-
-h1 {
-    color: #05CBE9
+.card-title {
+    color: #05cbe9;
+    font-size: 1.75rem;
+   
 }
 
-p {
-    color: whitesmoke
+.card-body {
+    font-size: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.read-more {
-    font-size: 1.5em;
+.card-title,
+.card-read-time,
+.card-btn {
+    font-family: 'Blinker', sans-serif;
 }
