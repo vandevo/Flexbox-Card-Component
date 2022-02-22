@@ -13,10 +13,7 @@ img {
     
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-}
+
 
 h1 {
     color: #05CBE9
