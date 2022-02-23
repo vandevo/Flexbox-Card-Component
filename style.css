@@ -7,25 +7,65 @@ html {
     width: 90%;
     margin: 0 auto;
     max-width: 800px;
+    background: #111d4a;
+    color: #fff;
+    
+    display: flex;
+    flex-direction: column;
 }
 
-img {
-    width: 50%;
+.card-img {
+    object-fit: cover;
+    height: 150px;
+}
+
+.card-content {
+    padding: 1em;
 }
 
 .card-title {
     color: #05cbe9;
     font-size: 1.75rem;
+    margin: 0;
    
 }
 
 .card-body {
     font-size: 1rem;
     font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.6;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;;
+    
 }
 
 .card-title,
 .card-read-time,
 .card-btn {
     font-family: 'Blinker', sans-serif;
+}
+
+.card-btn {
+    background: #05cbe9;
+    color: #111d4a;
+    font-weight: 800;
+    text-decoration: none;
+    padding: .35em 1.25em;
+    letter-spacing: 1px;
+}
+
+.card-read-time {
+    margin: 0;
+    opacity: .6;
+    line-height: 1;
+}
+
+.card-read-time span {
+    display: block;
+    font-weight: 700;
+    font-size: 1.25em;
 }
