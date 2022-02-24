@@ -14,9 +14,15 @@ html {
     flex-direction: column;
 }
 
+
+
 .card-img {
     object-fit: cover;
-    height: 150px;
+  
+    flex-basis: 200px;
+    min-width: 0;
+    min-height: 0;
+
 }
 
 .card-content {
@@ -70,4 +76,33 @@ html {
     display: block;
     font-weight: 700;
     font-size: 1.25em;
+}
+
+@media (min-width: 600px){
+    .card {
+        flex-direction: row;
+    }
+
+    .card-img {
+        height: 300px;
+    }
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-footer {
+        margin-top: auto;
+    }
+
+    .card-title {
+        font-size: 2.2rem;
+    }
+
+    .card-body {
+        font-size: 1.125rem;
+        max-width: 500px;
+    }
+ 
 }
